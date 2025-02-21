@@ -3,7 +3,7 @@
 }
 header {
   background-color: #333;
-  color: rgb(255, 255, 255);
+  color: rgb(181, 106, 106);
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -17,13 +17,13 @@ nav ul {
 
 nav ul a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(209, 29, 29);
 }
 
 #logo {
   font-weight: 600;
   font-size: 1.2rem;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(132, 85, 85);
   display: inline;
   padding: 5px;
 }
