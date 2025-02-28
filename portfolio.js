@@ -1,16 +1,13 @@
-*/ Selecting all project containers \*
-const projectContainers = document.querySelectorAll('.project_container');
+//Selecting all project containers
+const projectContainers = document.querySelectorAll(".project_container");
 
-
-*/ Adding click event listener to each project \*
 projectContainers.forEach((project) => {
-  project.addEventListener('click', () => {
+  project.addEventListener("click", () => {
+    //Change background color on click
+    project.style.backgroundColor = "#d3f8e2";
 
-    */ Change background color on click \*
-    project.style.backgroundColor = '#d3f8e2';
-
-    */Showing an alert with the project title \*
-    const projectTitle = project.querySelector('h2').textContent;
+    //Showing an alert with the project title
+    const projectTitle = project.querySelector("h2").textContent;
     alert(`You clicked on: ${projectTitle}`);
   });
 });
