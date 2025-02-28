@@ -8,6 +8,5 @@ projectContainers.forEach((project) => {
 
     //Showing an alert with the project title
     const projectTitle = project.querySelector("h2").textContent;
-    alert(`You clicked on: ${projectTitle}`);
   });
 });
